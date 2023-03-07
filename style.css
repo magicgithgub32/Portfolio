@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;700&display=swap');
+
+:root {
+  --bg-color-dark: #2c2c2c;
+  --primary-color-dark: #ffffff;
+  --bg-color-light: whitesmoke; 
+  --primary-color-light: #2c2c2c;
+
+  --bg-color-secondary-btn: #FC466B; 
+
+  --highlight-gradient: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+
+  --transition: 0.8s ease-in-out;
+
+  --gap: 1.5rem;
+
+  --btn-padding: 0.5rem 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+  font-family: "League Spartan", sans-serif;
+}
+
+body {
+  background-color: var(--bg-color-dark);
+  color: var(--primary-color-dark);
+  padding: 0.5rem 2rem;
+}
+
+main {
+  min-height: calc((100vh - 10vh - 8vh) - 1rem);
+  display: flex;
+  align-items: center;
+}
+
+main > * {
+  animation: fade 2s ease-in-out;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.light {
+  background-color: var(--bg-color-light);
+  color: var(--primary-color-light);
+}
+
+a {
+  transition: var(--transition);
+}
+a:hover {
+  color: #FC466B;
+}
+
+span {
+  background: var(--highlight-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
