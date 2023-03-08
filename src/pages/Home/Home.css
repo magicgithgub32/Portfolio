@@ -9,3 +9,12 @@
   .home h2 {
     font-size: 3rem;
   }
+
+    @media screen and (max-width: 768px) {
+      .home h2 {
+        font-size: 2rem;
+        
+      }
+      
+    }
+  

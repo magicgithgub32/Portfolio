@@ -3,7 +3,7 @@
 :root {
   --bg-color-dark: #2c2c2c;
   --primary-color-dark: #ffffff;
-  --bg-color-light: whitesmoke; 
+  --bg-color-light: rgba(237, 225, 225, 0.977); 
   --primary-color-light: #2c2c2c;
 
   --bg-color-secondary-btn: #FC466B; 
@@ -30,6 +30,8 @@ body {
   background-color: var(--bg-color-dark);
   color: var(--primary-color-dark);
   padding: 0.5rem 2rem;
+  transition:  var(--transition);
+
 }
 
 main {

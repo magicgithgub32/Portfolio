@@ -20,10 +20,4 @@ header > nav {
     gap: var(--gap);
   }
 
-  header img {
-    transition: var(--transition);
-  }
-
-  header img:hover {
-    transform: scale(1.2);
-}
+  

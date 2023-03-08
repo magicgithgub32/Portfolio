@@ -14,21 +14,6 @@ export const Header = () => {
               <li>
                   <a href="#" id="projectslink">Projects</a>
               </li>
-              <li>
-                  <a href="#">
-                      <img src="/icons/github.png" alt="GitHub icon"/>
-                  </a>
-              </li>
-              <li>
-                  <a href="#">
-                      <img src="/icons/gmail.png" alt="Gmail icon"/>
-                  </a>
-              </li>
-              <li>
-                  <a href="#">
-                      <img src="/icons/linkedin.png" alt="LinkedIn icon"/>
-                  </a>
-              </li>
           </ul>
       </nav>
       `;

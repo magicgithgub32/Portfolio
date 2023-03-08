@@ -1,0 +1,29 @@
+footer > nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  footer > nav > ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: var(--gap);
+  }
+
+  footer img {
+    transition: var(--transition);
+  }
+
+  footer img:hover {
+    transform: scale(1.4);
+}
+
+footer > nav button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+}
