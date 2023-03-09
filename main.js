@@ -14,4 +14,4 @@ Home();
 changeTheme();
 
 linkPage("#homelink", Home);
-linkPage("#techSkills", TechSkills);
+linkPage("#skillsLink", TechSkills);

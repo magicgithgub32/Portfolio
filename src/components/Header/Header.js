@@ -9,7 +9,7 @@ export const Header = () => {
                   <a href="#" id="homelink">Home</a>
               </li>
               <li>
-                  <a href="#" id="skills">Tech Skills</a>
+                  <a href="#" id="skillsLink">Tech Skills</a>
               </li>
               <li>
                   <a href="#" id="projectslink">Projects</a>
@@ -18,5 +18,3 @@ export const Header = () => {
       </nav>
       `;
 };
-
-const template = Header();
