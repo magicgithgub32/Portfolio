@@ -1,5 +1,10 @@
 export const loveData = [
   {
+    title: "CanaryWharf",
+    picture:
+      "https://res.cloudinary.com/dxxkog06n/image/upload/v1678459337/Screenshot_2023-03-10_at_15.41.33_jmvpa1.png",
+  },
+  {
     title: "arnold",
     picture:
       "https://res.cloudinary.com/dxxkog06n/image/upload/v1678447663/Arnold-Schwarzenegger-best-squat_i2dk8o.webp",
@@ -23,6 +28,11 @@ export const loveData = [
     title: "scarface",
     picture:
       "https://res.cloudinary.com/dxxkog06n/image/upload/v1678448379/Scarface_jnzt1a.webp",
+  },
+  {
+    title: "Beni",
+    picture:
+      "https://res.cloudinary.com/dxxkog06n/image/upload/v1678459508/Screenshot_2023-03-10_at_15.44.48_frmucw.png",
   },
   {
     title: "superman",
