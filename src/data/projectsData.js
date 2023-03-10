@@ -2,7 +2,7 @@ export const projectsData = [
   {
     name: "Mini-Rockism-Landing-Page",
     picture: "./images/Mini-Rockism.png",
-    desc: "Responsive landing page similar to Minimalism-brand's",
+    desc: "Responsive landing page",
     tech: ["HTML5", "CSS3"],
     link: "https://mini-rockism-landing-page.netlify.app/",
     git: "https://github.com/magicgithgub32/Proyecto_1_Landing_Page",
@@ -18,7 +18,7 @@ export const projectsData = [
   {
     name: "NASA-API",
     picture: "./images/NASA-API.png",
-    desc: "API with pictures taken from the Earth & Mars",
+    desc: "API with Earth sky & Mars pictures",
     tech: ["JavaScript", "React"],
     link: "https://proyecto-4-nasa-api.netlify.app/",
     git: "https://github.com/magicgithgub32/Proyecto_4_App_NASA",
@@ -26,7 +26,7 @@ export const projectsData = [
   {
     name: "Color-Flipper",
     picture: "./images/Color-Flipper.png",
-    desc: "Project with a select button for the background color ",
+    desc: "Select the background color ",
     tech: ["HTML5", "CSS3", "JavaScript"],
     link: "https://color-flipper-thepower.netlify.app/",
     git: "https://github.com/magicgithgub32/Color-Flipper",
