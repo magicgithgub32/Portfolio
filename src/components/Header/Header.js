@@ -14,6 +14,9 @@ export const Header = () => {
               <li>
                   <a href="#" id="projectsLink">Projects</a>
               </li>
+              <li>
+                  <a href="#" id="loveLink">💜</a>
+              </li>
           </ul>
       </nav>
       `;

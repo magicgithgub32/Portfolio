@@ -6,6 +6,7 @@ import { TechSkills } from "./src/pages/TechSkills/TechSkills";
 import { Projects } from "./src/pages/Projects/Projects";
 import { changeTheme, Footer } from "./src/components/Footer/Footer";
 import { linkPage } from "./src/utils/linkPage";
+import { Love } from "./src/pages/Love/Love";
 
 document.querySelector("header").innerHTML = Header();
 
@@ -17,3 +18,4 @@ changeTheme();
 linkPage("#homeLink", Home);
 linkPage("#skillsLink", TechSkills);
 linkPage("#projectsLink", Projects);
+linkPage("#loveLink", Love);
