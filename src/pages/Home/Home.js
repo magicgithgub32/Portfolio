@@ -1,8 +1,11 @@
 import "./Home.css";
 import { Avatar } from "../../components/Avatar/Avatar";
+import { cleanPage } from "../../utils/cleanPage";
+
+const main = document.querySelector("main");
 
 export const Home = () => {
-  const main = document.querySelector("main");
+  //   cleanPage(main);
   main.innerHTML = `
     <section class="home">
         <article>

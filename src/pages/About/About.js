@@ -1,9 +1,12 @@
+import { cleanPage } from "../../utils/cleanPage";
 import "./About.css";
 
+const main = document.querySelector("main");
+
 export const About = () => {
-  const main = document.querySelector("main");
+  // cleanPage(main);
   main.innerHTML = `
-    <article class="wwdc">
+  <article class="wwdc">
   <span class="spin">
     <div class="large circle one"></div>
     <div class="large circle two"></div>
@@ -30,8 +33,7 @@ export const About = () => {
     <div class="large squircle two">
       <div class="content">
       <h1>Rubén | Developer</h1>
-      <p><strong>Github</strong> Rubcs
-      magicgithgub32</p>
+      <p><strong>Github</strong> magicgithgub32</p>
     </div>
   </div>
 </article>
