@@ -12,10 +12,6 @@ export const skillsData = [
     desc: "JavaScript",
   },
   {
-    icon: "./icons/git.png",
-    desc: "Git",
-  },
-  {
     icon: "./icons/react.png",
     desc: "React",
   },
@@ -28,11 +24,15 @@ export const skillsData = [
     desc: "Mongo",
   },
   {
+    icon: "./icons/shell.png",
+    desc: "Terminal",
+  },
+  {
     icon: "./icons/vs.png",
     desc: "VisualStudio",
   },
   {
-    icon: "./icons/shell.png",
-    desc: "Terminal",
+    icon: "./icons/git.png",
+    desc: "Git",
   },
 ];

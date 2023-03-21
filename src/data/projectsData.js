@@ -6,6 +6,11 @@ export const projectsData = [
     tech: ["HTML5", "CSS3"],
     link: "https://mini-rockism-landing-page.netlify.app/",
     git: "https://github.com/magicgithgub32/Proyecto_1_Landing_Page",
+    detail: {
+      imageDetail: "./images/Mini-Rockism-detail.png",
+      descDetail:
+        "This was the first project I created, a responsive landing page trying to simulate the landing page of Minimalism Brand, an eco-clothing store. Just HTML and CSS were used. Being my first project, 'a couple' of things might be considered to get done in order to improve it, as I didn't use the declared footer section, for instance. But hey, this is a long journey. Step by step ",
+    },
   },
   {
     name: "Nike-TheCode",
@@ -14,6 +19,11 @@ export const projectsData = [
     tech: ["HTML5", "CSS3", "JavaScript"],
     link: "https://nike-thecode.netlify.app/",
     git: "https://github.com/magicgithgub32/Proyecto_2_Dynamic-store",
+    detail: {
+      imageDetail: "./images/Nike-TheCode-detail.png",
+      descDetail:
+        "JavaScript was added to HTML and CSS for creating this second project: a dynamic store with Nike Sneakers. The products can be filtered either by brand or price. The design of the site is, for sure, improvable, but the point here is to show its functionality",
+    },
   },
   {
     name: "NASA-API",
@@ -22,6 +32,11 @@ export const projectsData = [
     tech: ["JavaScript", "React"],
     link: "https://proyecto-4-nasa-api.netlify.app/",
     git: "https://github.com/magicgithgub32/Proyecto_4_App_NASA",
+    detail: {
+      imageDetail: "./images/NASA-API-detail.png",
+      descDetail:
+        "This app is created with JS and React. It connects to the well-known NASA-API, and you can choose between getting the usual pictures that NASA posts by day (you can select the day as there is a calendar in the site) or the ones that ROVER bot took that very day around Mars",
+    },
   },
   {
     name: "Color-Flipper",
@@ -30,5 +45,10 @@ export const projectsData = [
     tech: ["HTML5", "CSS3", "JavaScript"],
     link: "https://color-flipper-thepower.netlify.app/",
     git: "https://github.com/magicgithgub32/Color-Flipper",
+    detail: {
+      imageDetail: "./images/Mini-Color-Flipper-detail.png",
+      descDetail:
+        "This is just a random project I created. A simple app that thanks to JS you can choose the background color amongst five jazzy colors from a select button",
+    },
   },
 ];
