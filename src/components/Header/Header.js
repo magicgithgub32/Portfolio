@@ -11,7 +11,7 @@ export const changeTheme = () => {
 export const changeLogoTheme = () => {
   const themeBtn = document.getElementById("themeBtn");
   console.log(themeBtn.src);
-  if (themeBtn.src.includes("sun.png")) {
+  if (themeBtn.src == "icons/sun.png") {
     themeBtn.src = "icons/moon.png";
   } else {
     themeBtn.src = "icons/sun.png";
