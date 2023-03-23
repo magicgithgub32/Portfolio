@@ -2,7 +2,7 @@ import "./ProjectCard.css";
 
 export const ProjectCard = (project) => {
   return `
-    <article class="project-card" >
+    <article class="project-card" id=${project.id}>
         <img src=${project.picture} alt=${project.name} />
         <h3>${project.name}</h3>
         <p>${project.desc}</p>

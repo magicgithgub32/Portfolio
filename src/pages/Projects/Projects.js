@@ -24,7 +24,7 @@ export const Projects = () => {
     });
   };
 
-  for (const project of projectsData) {
+  projectsData.forEach((project) => {
     addEventListenerForProjectDetail(project.id);
-  }
+  });
 };
