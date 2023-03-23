@@ -1,10 +1,10 @@
 import "./style.css";
 
-import { Header } from "./src/components/Header/Header";
+import { Header, changeTheme } from "./src/components/Header/Header";
 import { Home } from "./src/pages/Home/Home";
 import { TechSkills } from "./src/pages/TechSkills/TechSkills";
 import { Projects } from "./src/pages/Projects/Projects";
-import { changeTheme, Footer } from "./src/components/Footer/Footer";
+import { Footer } from "./src/components/Footer/Footer";
 import { linkPage } from "./src/utils/linkPage";
 import { Love } from "./src/pages/Love/Love";
 import { About } from "./src/pages/About/About";

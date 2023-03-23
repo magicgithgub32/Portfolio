@@ -21,9 +21,4 @@ footer > nav {
     transform: scale(1.4);
 }
 
-footer > nav button {
-  background: none;
-  border: none;
-  color: inherit;
-  cursor: pointer;
-}
+

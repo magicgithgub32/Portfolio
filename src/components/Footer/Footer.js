@@ -1,22 +1,5 @@
 import "./Footer.css";
 
-export const changeTheme = () => {
-  const themeBtn = document.querySelector("#themeBtn");
-  themeBtn.addEventListener("click", () => {
-    document.body.classList.toggle("light");
-    changeLogoTheme();
-  });
-};
-
-export const changeLogoTheme = () => {
-  const themeBtn = document.querySelector("#themeBtn");
-  if (themeBtn.innerText === "🌞") {
-    themeBtn.innerText = "🌑";
-  } else {
-    themeBtn.innerText = "🌞";
-  }
-};
-
 export const Footer = () => {
   return `
             <nav>
@@ -37,8 +20,6 @@ export const Footer = () => {
                         </a>
                     </li>
               </ul>
-              <div>
-                <button id="themeBtn">🌞</button>
          </nav>
             `;
 };

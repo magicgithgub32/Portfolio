@@ -1,6 +1,4 @@
-header {
-    /* min-height: ; */
-  }
+
 
 
 header > nav {
@@ -20,4 +18,9 @@ header > nav {
     gap: var(--gap);
   }
 
-  
+  header > nav button {
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+  }
