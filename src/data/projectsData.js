@@ -10,6 +10,7 @@ export const projectsData = [
     detail: {
       titleDetail: "Mini-Rockism-Landing-Page",
       imageDetail: "./images/Mini-Rockism-detail.png",
+      imageDetail2: "./images/Mini-Rockism-detail2.png",
       descDetail:
         "This was the first project I created, a responsive landing page trying to simulate the landing page of Minimalism Brand, an eco-clothing store. Just HTML and CSS were used. Being my first project, 'a couple' of things might be considered to get done in order to improve it, as I didn't use the declared footer section, for instance. But hey, this is a long journey. Step by step ",
     },
@@ -25,6 +26,7 @@ export const projectsData = [
     detail: {
       titleDetail: "Nike-TheCode",
       imageDetail: "./images/Nike-TheCode-detail.png",
+      imageDetail2: "./images/Nike-TheCode-detail2.png",
       descDetail:
         "JavaScript was added to HTML and CSS for creating this second project: a dynamic store with Nike Sneakers. The products can be filtered either by brand or price. The design of the site is, for sure, improvable, but the point here is to show its functionality",
     },
@@ -40,8 +42,9 @@ export const projectsData = [
     detail: {
       titleDetail: "NASA-API",
       imageDetail: "./images/NASA-API-detail.png",
+      imageDetail2: "./images/NASA-API-detail2.png",
       descDetail:
-        "This app is created with JS and React. It connects to the well-known NASA-API, and you can choose between getting the usual pictures that NASA posts by day (you can select the day as there is a calendar in the site) or the ones that ROVER bot took that very day around Mars",
+        "This app is created with JS and React. It connects to the well-known NASA-API, and you can choose between getting the usual amazing pictures taken by people that NASA posts by day (you can select the day as there is a calendar in the site) or the ones that ROVER bot took that selected day around Mars",
     },
   },
   {
@@ -54,7 +57,8 @@ export const projectsData = [
     git: "https://github.com/magicgithgub32/Color-Flipper",
     detail: {
       titleDetail: "Color-Flipper",
-      imageDetail: "./images/Mini-Color-Flipper-detail.png",
+      imageDetail: "./images/Color-Flipper-Detail.png",
+      imageDetail2: "./images/Color-Flipper-Detail2.png",
       descDetail:
         "This is just a random project I created. A simple app that thanks to JS you can choose the site's background color amongst five jazzy colors from a select button",
     },

@@ -1,12 +1,19 @@
+
 .detail-img-container {
-    display: flex;
+      
+      display: flex;
       justify-content: center;
       align-items: center;
+      margin-top: 3rem;
+      gap: 1rem;
+      flex-wrap: wrap;
   }
   
   .detail-img-container > img{
-    width: 50%;
-    height: auto;
+    height: 300px;
+    width: auto;
+    object-fit: contain;
+
   }
   
   

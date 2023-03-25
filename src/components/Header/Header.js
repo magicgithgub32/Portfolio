@@ -8,15 +8,15 @@ export const changeTheme = () => {
   });
 };
 
-export const changeLogoTheme = () => {
-  const themeBtn = document.getElementById("themeBtn");
-  console.log(themeBtn.src);
-  if (themeBtn.src == "icons/sun.png") {
-    themeBtn.src = "icons/moon.png";
-  } else {
-    themeBtn.src = "icons/sun.png";
-  }
-};
+// export const changeLogoTheme = () => {
+//   const themeBtn = document.getElementById("themeBtn");
+//   console.log(themeBtn.src);
+//   if (themeBtn.src == "icons/sun.png") {
+//     themeBtn.src = "icons/moon.png";
+//   } else {
+//     themeBtn.src = "icons/sun.png";
+//   }
+// };
 
 export const Header = () => {
   return `
@@ -39,7 +39,7 @@ export const Header = () => {
                   <a href="#" id="loveLink">💜</a>
               </li>
           </ul>
-          <button id="themeBtn"><img src="icons/sun.png" alt="icon" id="themeBtn"></button>
+          <button id="themeBtn"><img src="icons/theme-mode.png" alt="icon" id="themeBtn"></button>
 
       </nav>
       `;

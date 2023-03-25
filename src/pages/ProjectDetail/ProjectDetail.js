@@ -12,8 +12,10 @@ export const ProjectDetail = (id) => {
   const container = document.querySelector(".projectDetail-container");
 
   container.innerHTML += `
-    <h2>${project.detail.titleDetail}</h2>
-    <div class="detail-img-container"><img src=${project.detail.imageDetail} alt=${project.detail.titleDetail} /></div>
+    <div class="detail-img-container">
+    <img src=${project.detail.imageDetail} alt=${project.detail.titleDetail} />
+    <img src=${project.detail.imageDetail2} alt=${project.detail.titleDetail} />
+    </div>
     <p>${project.detail.descDetail}</p>
   `;
 };
