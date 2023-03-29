@@ -8,8 +8,8 @@ export const ProjectCard = (project) => {
         <p>${project.desc}</p>
         <p>Tech Stack: ${project.tech.join(", ")}</p>
         <div class="project-card-links">
-            <a href=${project.link}>🔗 Check it out</a>
-            <a href=${project.git}>💻 See the code</a>
+            <a href=${project.link} class="code-link">🔗 Check it out</a>
+            <a href=${project.git} class="code-link">💻 See the code</a>
         </div>
     </article>
     `;

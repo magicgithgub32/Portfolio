@@ -23,7 +23,6 @@ export const changeLogoTheme = () => {
 export const Header = () => {
   return `
       <nav>
-          <h3>Rub</h3>
           <ul>
               <li>
                   <a href="#" id="homeLink">Home</a>

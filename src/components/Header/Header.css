@@ -1,24 +1,25 @@
 
 header > nav {
-    display: flex;
-    justify-content: space-between;
-    height: 100%;
-    align-items: center;
-    flex-wrap: wrap;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  flex-wrap: wrap;
+}
 
-  header > nav > ul {
-    display: flex;
-    height: 100%;
-    list-style: none;
-    text-decoration: none;
-    align-items: center;
-    gap: var(--gap);
-  }
+header > nav > ul {
+  display: flex;
+  height: 100%;
+  list-style: none;
+  text-decoration: none;
+  align-items: center;
+  gap: var(--gap);
+  margin: 0 auto;
+}
 
-  header > nav button {
-    background: none;
-    border: none;
-    color: inherit;
-    cursor: pointer;
-  }
+header > nav button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+}

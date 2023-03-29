@@ -19,8 +19,12 @@ export const Projects = () => {
 
   const addEventListenerForProjectDetail = (id) => {
     const project = document.getElementById(id);
-    project.addEventListener("click", () => {
-      ProjectDetail(id);
+    project.addEventListener("click", (event) => {
+      const isCodeLink = event.target.classList.contains("code-link");
+      if (!isCodeLink) {
+        event.preventDefault();
+        ProjectDetail(id);
+      }
     });
   };
 

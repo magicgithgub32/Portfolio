@@ -19,6 +19,12 @@
     height: 60%;
     object-fit: cover;
     padding: 0;
+    cursor: pointer;
+    transition: var(--transition);
+  }
+
+  .project-card img:hover {
+    scale: 1.3;
   }
   
   .project-card-links {
