@@ -22,7 +22,7 @@ export const Projects = () => {
     project.addEventListener("click", (event) => {
       const isCodeLink = event.target.classList.contains("code-link");
       if (!isCodeLink) {
-        event.preventDefault();
+        event.preventDefault(); //This is to avoid showing projectDetail page for a second before showing the gitHub page or the app itself
         ProjectDetail(id);
       }
     });
