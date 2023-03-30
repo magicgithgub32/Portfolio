@@ -49,4 +49,9 @@ export const loveData = [
     picture:
       "https://res.cloudinary.com/dxxkog06n/image/upload/v1678458706/Screenshot_2023-03-10_at_15.31.28_ngynk0.png",
   },
+  {
+    title: "castalia",
+    picture:
+      "https://res.cloudinary.com/dxxkog06n/image/upload/v1680153696/Screenshot_2023-03-30_at_07.17.21_y81wrm.png",
+  },
 ];
