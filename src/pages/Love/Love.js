@@ -1,5 +1,5 @@
 import { LoveCard } from "../../components/LoveCard/LoveCard";
-import { loveData } from "../../data/LoveData";
+import { loveData } from "../../data/loveData";
 import { cleanPage } from "../../utils/cleanPage";
 import "./Love.css";
 
