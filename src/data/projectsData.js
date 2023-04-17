@@ -63,4 +63,20 @@ export const projectsData = [
         "This is just a random project I created. A simple app that thanks to JS you can choose the site's background color amongst five jazzy colors from a select button",
     },
   },
+  {
+    id: 5,
+    name: "Weather-App",
+    picture: "./images/Weather-app.png",
+    desc: "Weather app for local and selected cities",
+    tech: ["JavaScript", "React"],
+    link: "https://rockweatherapp.netlify.app/",
+    git: "https://github.com/magicgithgub32/Proyecto_5_Weather_app",
+    detail: {
+      titleDetail: "Weather-App",
+      imageDetail: "./images/Weather-App-detail.png",
+      imageDetail2: "./images/Weather-App-detail2.png",
+      descDetail:
+        "A weather app created with JS and react connecting to Openweather API. You can select between the current / forecast local weather and a bunch of selected cities in the world",
+    },
+  },
 ];
