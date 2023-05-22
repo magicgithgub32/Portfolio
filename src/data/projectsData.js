@@ -92,7 +92,7 @@ export const projectsData = [
       imageDetail: "./images/Games-Hub.detail.png",
       imageDetail2: "./images/Games-Hub-detail2.png",
       descDetail:
-        "A weather app created with JS and react connecting to Openweather API. You can select between the current / forecast local weather and a bunch of selected cities in the world",
+        "App created with React and JS, using Authentication and useContext along with useEffect and useState",
     },
   },
 ];
