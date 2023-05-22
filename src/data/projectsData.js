@@ -79,4 +79,20 @@ export const projectsData = [
         "A weather app created with JS and react connecting to Openweather API. You can select between the current / forecast local weather and a bunch of selected cities in the world",
     },
   },
+  {
+    id: 6,
+    name: "RockGames-Hub",
+    picture: "./images/GamesHub.png",
+    desc: "App with tictactoe, hangman and sudoku games",
+    tech: ["JavaScript", "React"],
+    link: "https://rockgames-hub.netlify.app/",
+    git: "https://github.com/magicgithgub32/Proyecto_6_Games-Hub",
+    detail: {
+      titleDetail: "RockGames-Hub",
+      imageDetail: "./images/Games-Hub.detail.png",
+      imageDetail2: "./images/Games-Hub-detail2.png",
+      descDetail:
+        "A weather app created with JS and react connecting to Openweather API. You can select between the current / forecast local weather and a bunch of selected cities in the world",
+    },
+  },
 ];
