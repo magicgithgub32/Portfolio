@@ -95,4 +95,20 @@ export const projectsData = [
         "App created with React and JS, using Authentication and useContext along with useEffect and useState",
     },
   },
+
+  {
+    id: 7,
+    name: "yesAnotherPokeApi",
+    picture: "./images/Poke.png",
+    desc: "Classic and simple Api showing Pokemon",
+    tech: ["JavaScript", "React"],
+    link: "https://yesanotherpokeapi.netlify.app/",
+    git: "https://github.com/magicgithgub32/pokeApi",
+    detail: {
+      titleDetail: "yesAnotherPokeApi",
+      imageDetail: "./images/Poke_detail.png",
+      imageDetail2: "./images/Poke_detail2.png",
+      descDetail: "App created with React and JS, using a couple of useStates",
+    },
+  },
 ];
