@@ -111,4 +111,24 @@ export const projectsData = [
       descDetail: "App created with React and JS, using a couple of useStates",
     },
   },
+
+  {
+    id: 8,
+    name: "API_Full-Server",
+    picture:
+      "https://res.cloudinary.com/dxxkog06n/image/upload/v1686114421/Screenshot_2023-06-07_at_07.06.12_sh6mj4.png",
+    desc: "Classic and simple Api showing Pokemon",
+    tech: ["Node", "Express", "MongoDB"],
+    link: "https://proyecto-9-api-full-server.onrender.com/api/v1/books",
+    git: "https://github.com/magicgithgub32/API_Full-server",
+    detail: {
+      titleDetail: "API_Full-Server",
+      imageDetail:
+        "https://res.cloudinary.com/dxxkog06n/image/upload/v1686114416/Screenshot_2023-06-07_at_07.06.27_pxhxyt.png",
+      imageDetail2:
+        "https://res.cloudinary.com/dxxkog06n/image/upload/v1686114410/Screenshot_2023-06-07_at_07.06.38_auflec.png",
+      descDetail:
+        "API full server with three inter related models. Using authentication middlewares and libraries such as Nodemon, jasonwebtoken, bcrypt and cloudinary",
+    },
+  },
 ];
