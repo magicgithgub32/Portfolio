@@ -131,4 +131,21 @@ export const projectsData = [
         "API full server with three inter related models. Using authentication middlewares and libraries such as Nodemon, jasonwebtoken, bcrypt and cloudinary",
     },
   },
+
+  {
+    id: 9,
+    name: "getCatFact&Gif",
+    picture: "./images/CatFactGif.png",
+    desc: "Join two Api for the same website",
+    tech: ["JavaScript", "React"],
+    link: "https://getcatfactandgif.netlify.app/",
+    git: "https://github.com/magicgithgub32/prueba_tecnica_midudev",
+    detail: {
+      titleDetail: "getCatFact&Gif",
+      imageDetail: "./images/CTG_detail1.png",
+      imageDetail2: "./images/CTG_detail2.png",
+      descDetail:
+        "App created with React and JS, using a couple of useStates and useEffects and two fetch to two different Api. The second fetch is related to the response we get from the first fetch",
+    },
+  },
 ];
