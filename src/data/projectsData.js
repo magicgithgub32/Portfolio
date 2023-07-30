@@ -151,15 +151,15 @@ export const projectsData = [
   {
     id: 10,
     name: "TriaRock",
-    picture: "./images/triarock.png",
+    picture: "./images/Triarock.png",
     desc: "E-commerce connected a created API",
     tech: ["JavaScript", "React", "Node.js", "MongoDB"],
     link: "https://triarock.netlify.app//",
     git: "https://github.com/magicgithgub32/TriaRock_Fro",
     detail: {
-      titleDetail: "getCatFact&Gif",
-      imageDetail: "./images/triarock-det1.png",
-      imageDetail2: "./images/triarockdet2.png",
+      titleDetail: "TriaRock",
+      imageDetail: "./images/Triarock-det1.png",
+      imageDetail2: "./images/Triarock-det2.png",
       descDetail:
         "E-Commerce with three categories of products connected to a created Api with scraped products from another website",
     },
