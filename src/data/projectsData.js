@@ -154,7 +154,7 @@ export const projectsData = [
     picture: "./images/Triarock.png",
     desc: "E-commerce connected a created API",
     tech: ["JavaScript", "React", "Node.js", "MongoDB"],
-    link: "https://triarock.netlify.app//",
+    link: "https://triarock.netlify.app/",
     git: "https://github.com/magicgithgub32/TriaRock_Fro",
     detail: {
       titleDetail: "TriaRock",
@@ -162,6 +162,22 @@ export const projectsData = [
       imageDetail2: "./images/Triarock-det2.png",
       descDetail:
         "E-Commerce with three categories of products connected to a created Api with scraped products from another website",
+    },
+  },
+  {
+    id: 11,
+    name: "Piedra_Papel_Tijera_Lagarto_Spock",
+    picture: "./images/PPTLS.png",
+    desc: "Extension of the classic game by Big-Bang-Theory",
+    tech: ["JavaScript", "React"],
+    link: "https://piedra-papel-tijeras-lagarto-spock.netlify.app/Home",
+    git: "https://github.com/magicgithgub32/piedra_papel_tijera_lagarto_spock",
+    detail: {
+      titleDetail: "Piedra_Papel_Tijera_Lagarto_Spock",
+      imageDetail: "./images/PPTLS_detail1.png",
+      imageDetail2: "./images/PPTLS_detail2.png",
+      descDetail:
+        "Play the classic Piedra-papel-tijera game plus lagarto and Spock. Game introduced by The Big Bang Theory series. Coded with React. Players plays are random",
     },
   },
 ];
