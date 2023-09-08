@@ -170,7 +170,7 @@ export const projectsData = [
     picture: "./images/PPTLS.png",
     desc: "Extension of the classic game by Big-Bang-Theory",
     tech: ["JavaScript", "React"],
-    link: "https://piedra-papel-tijeras-lagarto-spock.netlify.app/Home",
+    link: "https://piedra-papel-tijeras-lagarto-spock.netlify.app/",
     git: "https://github.com/magicgithgub32/piedra_papel_tijera_lagarto_spock",
     detail: {
       titleDetail: "Piedra_Papel_Tijera_Lagarto_Spock",
@@ -178,6 +178,22 @@ export const projectsData = [
       imageDetail2: "./images/PPTLS_detail2.png",
       descDetail:
         "Play the classic Piedra-papel-tijera game plus lagarto and Spock. Game introduced by The Big Bang Theory series. Coded with React. Players plays are random",
+    },
+  },
+  {
+    id: 12,
+    name: "Football_rub_Hub",
+    picture: "./images/foot.png",
+    desc: "Page with Football League stats",
+    tech: ["JavaScript", "React"],
+    link: "https://footballrubhub.netlify.app/",
+    git: "https://github.com/magicgithgub32/footballApi",
+    detail: {
+      titleDetail: "Football_rub_HubFoo",
+      imageDetail: "./images/PPTLS_detail1.png",
+      imageDetail2: "./images/PPTLS_detail2.png",
+      descDetail:
+        "App created with Js and React connecting to a Football API and fetching some league stats. All top-Scorers are added to the data",
     },
   },
 ];
