@@ -190,10 +190,26 @@ export const projectsData = [
     git: "https://github.com/magicgithgub32/footballApi",
     detail: {
       titleDetail: "Football_rub_HubFoo",
-      imageDetail: "./images/PPTLS_detail1.png",
-      imageDetail2: "./images/PPTLS_detail2.png",
+      imageDetail: "./images/foot_detail1.png",
+      imageDetail2: "./images/foot_detail2.png",
       descDetail:
         "App created with Js and React connecting to a Football API and fetching some league stats. All top-Scorers are added to the data",
+    },
+  },
+  {
+    id: 13,
+    name: "mr_Olympia_site",
+    picture: "./images/mr_Olympia.png",
+    desc: "Page with mrOlympia winners and more info about bodybuilders",
+    tech: ["JavaScript", "React"],
+    link: "https://mr-olympia.netlify.app/",
+    git: "https://github.com/magicgithgub32/mrOlympia_front",
+    detail: {
+      titleDetail: "mr_Olympia_site",
+      imageDetail: "./images/mrOlym_detail1.png",
+      imageDetail2: "./images/mrOlym_detail2.png",
+      descDetail:
+        "Database / backend created with node.js and mongodb and frontend built with Js and React",
     },
   },
 ];
